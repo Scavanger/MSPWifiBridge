@@ -3,9 +3,9 @@
 #include <WiFiUdp.h>
 
 #if defined(ESP8266)
-    #include <ESP8266Wifi.h>
+    #include <ESP8266WiFi.h>
 #elif defined(ESP32)
-    #include <Wifi.h>
+    #include <WiFi.h>
 #endif
 
 #include "config.h"
